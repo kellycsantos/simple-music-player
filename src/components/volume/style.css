@@ -1,0 +1,20 @@
+.volume-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volume-container img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.barra-volume{
+    border: 1px solid black;
+    width: 80%;
+    height: 10px;
+    margin-inline: 10px;
+    background: linear-gradient(to right, #000000 30%, transparent 0%) ;
+    border-radius: 5px;
+}
